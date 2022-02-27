@@ -8,3 +8,9 @@ const flightSchema = new Schema({
   flightno: Number,
   departs: Date
 })
+
+const Flight = mongoose.model('Flight', flightSchema)
+
+export {
+  Flight
+}
